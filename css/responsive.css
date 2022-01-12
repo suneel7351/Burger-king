@@ -1,0 +1,110 @@
+@media (max-width: 576px) {
+  .btn {
+    cursor: pointer;
+  }
+  #quality .card-parent {
+    flex-wrap: wrap;
+  }
+  #our-menu .card-parent {
+    flex-wrap: wrap;
+  }
+  #about-us {
+    padding: 0 2rem;
+  }
+  #about-us p {
+    text-align: start;
+  }
+  #blog .container .post .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #blog .container .post .card div img {
+    text-align: center;
+  }
+  footer .container .footer ul {
+    flex-wrap: wrap;
+  }
+  #reviews .container {
+    position: relative;
+  }
+  .prev-btn {
+    position: absolute;
+    top: 100%;
+    left: 40%;
+
+    height: 4rem;
+  }
+  .next-btn {
+    position: absolute;
+    top: 100%;
+    left: 52%;
+    height: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  #about-us .container .about {
+    flex-direction: column;
+  }
+  #contact-us .container .map-input {
+    flex-direction: column;
+  }
+  #blog .container .post {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 992px) {
+  #about-us .up,
+  #about-us .down {
+    flex-wrap: wrap;
+  }
+  #navBar {
+    display: block;
+  }
+  .brand,
+  #search,
+  #cart {
+    display: none;
+  }
+  #navBar .menu {
+    position: fixed;
+    left: -100%;
+    top: 71px;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: var(--dark);
+    transition: 0.6s;
+    z-index: 1000;
+    padding: 2rem 0 3rem 0;
+  }
+  .menu li {
+    margin: 2rem 0 !important;
+  }
+  .menu a {
+    padding: 2rem;
+    z-index: 1000;
+    font-size: 2rem;
+  }
+  #navBar .menu.active {
+    left: 0;
+  }
+  .small-devices {
+    display: block;
+  }
+  .mobile-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mobile-menu img {
+    display: block;
+  }
+  .navlink {
+    transition: all 0.6s ease;
+  }
+  .about {
+    flex-direction: column;
+  }
+}
